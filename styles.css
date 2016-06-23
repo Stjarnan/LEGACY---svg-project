@@ -1,3 +1,54 @@
+/*=====================
+
+Colors
+
+=======================*/
+
+ .mudbrown {
+    fill: #BA8058;
+  }
+            
+.tacao {
+    fill: #EAAA7F;
+  }
+            
+.manhattan {
+    fill: #F4C6A6;
+  }
+
+.twilight-blue {
+    fill: #FBFEFF;
+  }
+                
+.outer-space {
+    fill: #2D3339;
+  }
+
+.bull-shot {
+    fill: #844B24;
+  }
+
+ .abbey {
+    fill: #52595F;
+  } 
+
+ .scooter {
+    fill: #39ADD1;
+  } 
+
+
+
+
+
+/* ==============
+
+Styles
+
+===============*/
+
+
+
+
 body {
   margin: 0;
   padding: 0;
@@ -43,6 +94,15 @@ header {
     display: inline-block;
     margin-right: 20px;
   }
+
+  .nav-icon {
+    height: 13px;
+  }
+
+  .nav-icon-location {
+    height: 14px;
+  }
+
   header h1 {
     line-height: 1em;
   }
@@ -70,9 +130,15 @@ main {
       color: #ba8058;
       margin-right: 20px;
     }
-      main li img {
+      main li svg {
         margin-bottom: 15px;
       }
+
+      .corgi {
+        height: 170px;
+        width: 170px;
+      }
+
       main li span {
         margin-left: -40px;
       }
